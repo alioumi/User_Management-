@@ -1,0 +1,182 @@
+.button-log {
+    background: linear-gradient(180deg, rgba(8, 117, 146, 0.9) 0%, rgba(52, 161, 168, 0.9) 100%);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+  }
+
+.button-us{
+    position: absolute;
+    box-sizing: border-box;
+    width: 200px;
+    height: 65px;
+    left: 1480px;
+    top: 15px;
+    background: white;
+    border: 6px solid #087592;
+    color: linear-gradient(180deg, rgba(8, 117, 146, 0.9) 0%, rgba(52, 161, 168, 0.9) 100%);;
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30 px;
+    border-radius: 30px;
+    
+
+
+
+}
+
+.button {
+    background: linear-gradient(180deg, rgba(8, 117, 146, 0.9) 0%, rgba(52, 161, 168, 0.9) 100%);
+    border: none;
+    color: white;
+    padding: 5px 40px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 30px;
+    border-radius: 12px;
+  }
+
+h1{ 
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 750px;
+    top: 100px;
+    color: white;
+
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 20px;
+    }
+
+table {
+    border: 1px solid #087592;
+    border-collapse: collapse;
+    border-radius: 30px;
+    margin: auto;
+    padding: 0px;
+    width: 90%;
+    table-layout: fixed;
+    position: absolute;
+    left: 80px;
+    top: 200px;
+
+  }
+  
+  table caption {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #087592;
+    padding: .35em;
+  }
+  
+  table th{
+    background: linear-gradient(180deg, rgba(8, 117, 146, 0.9) 0%, rgba(52, 161, 168, 0.9) 100%);
+    border: 1px solid #087592;
+    padding: .625em;
+    text-align: center;
+  }
+  table td {
+    font-size: 20px;
+    font-family: 'Nunito';
+    font-style: normal;
+    border: 1px solid #087592;
+    padding: .625em;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .95em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  .button-cr{
+    background: linear-gradient(180deg, rgba(8, 117, 146, 0.9) 0%, rgba(52, 161, 168, 0.9) 100%);
+    border: none;
+    color: white;
+    padding: 5px 40px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 12px;
+    position: absolute;
+    left: 1400px;
+    top: 450px;
+    
+
+  }
+  /* general styling */
+  body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+  }

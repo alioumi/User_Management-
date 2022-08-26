@@ -1,0 +1,79 @@
+.button1{
+    position: absolute;
+    box-sizing: border-box;
+    width: 200px;
+    height: 65px;
+    left: 1480px;
+    top: 15px;
+    background: radial-gradient(50% 50% at 50% 50%, #087592 0%, #34A1A8 100%);
+    border: 0.8px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 500px rgba(8, 117, 146, 0.3);
+    border-radius: 30px;
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30 px;
+    border-radius: 30px;
+}
+
+.button2{
+box-sizing: border-box;
+background: radial-gradient(50% 50% at 50% 50%, #087592 0%, #34A1A8 100%);
+border: 0.8px solid rgba(255, 255, 255, 0.2);
+box-shadow: 0px 0px 20px rgba(8, 117, 146, 0.3);
+border-radius: 20px;
+
+position: absolute;
+width: 200px;
+height: 50px;
+left: 750px;
+top: 150px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 44px;
+align-items: center;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+
+.input{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.text-lable{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    margin: 600px;
+    margin-top: 250px;
+    color: #087592;
+
+}
+
+input{
+    display: flex;
+    border-radius: 70px;
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: var(--app-background);
+    border: 3px solid #34A1A8;
+    outline-style: none;
+    transition: all ease-in-out 200ms;
+    margin: 600px;
+    margin-top:-600px;
+    
+}
